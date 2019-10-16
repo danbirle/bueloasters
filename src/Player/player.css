@@ -1,0 +1,30 @@
+main {
+  display: grid;
+  height: 50%;
+  grid-template-areas:
+    "gBattle gBattle gBattle"
+    "gGraveyard gPlayer gDeck"
+    "gMana gMana gMana"
+    "gHand gHand gHand";
+}
+section {
+  display: grid;
+}
+section.gHand {
+  grid-area: gHand;
+}
+section.gMana {
+  grid-area: gMana;
+}
+section.gGraveyard {
+  grid-area: gGraveyard;
+}
+section.gPlayer {
+  grid-area: gPlayer;
+}
+section.gDeck {
+  grid-area: gDeck;
+}
+section.gBattle {
+  grid-area: gBattle;
+}
